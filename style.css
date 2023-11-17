@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+  
+
+
+
+header{
+    background-image: linear-gradient(rgba(47, 40, 63, 0.719),rgba(7, 6, 8, 0.459)),url(./images/background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+    width: 100%;
+}
+.sikom-logo img{
+    width: 200px;
+    margin-top: -30px;
+  
+}
+
+.navbar{
+    margin-left: 800px;
+    margin-top: -100px;
+    position: fixed;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+ 
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+hr{
+    margin-top: 20px;
+    border: solid 1.5px;
+    color: white;
+}
+/* end of nav bar */
+.description{
+    margin-left: 80px;
+    
+}
+
+.description h3{
+    color: orangered;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.description h1{
+    margin-top: 20px;
+    color: white;
+}
+
+
+.description p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    
+}
+
+/* to work on the view button */
+.description button{
+
+margin-top: 80px;
+transform: translateY(-60px);
+}
+
+.line2 hr{
+   width: 50px;
+}
+
+
+.rect1{
+    width: 300px;
+    height: 600px;
+    background: rgb(218, 216, 216);
+    margin-left: 150px;
+    margin-top: 20px;
+    transform: translateY(-60px);
+  
+}
+
+.rect1 img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+/* styling the rectangles with the pics */
+
+.rect1 .circle{
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 3px solid rgb(7, 0, 0);
+    border-radius: 50px;
+    margin-left: 115px;
+    transform: translateY(-40px);
+}
+
+.rect1 h5{
+    color: rgb(235, 143, 5);
+    margin-left: 110px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.rect1 h1{
+    margin-left: 65px;
+    font-size: 28px;
+}
+.rect1 p{
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 28px;
+    line-height: 20px;
+}
+
+
+/* stylling the whole rectangles */
+
+.rectangles{
+    display: flex;
+    margin-left: -60px;
+}
+
+
+/* styling the new column  */
+
+.gg{
+    display: flex;
+    color: white;
+}
+.rect2{
+    width: 400px;
+    height: 600px;
+    background: rgb(241, 216, 216);
+    margin-left: 120px;
+    box-shadow: 7px 2px 2px 4px orange;
+}
+
+.rect2 img{
+    width: 400px;
+    height: 620px;
+    object-fit: cover;
+    margin-top: -20px;
+    border-radius: 20px;
+    
+}
+
+.tt{
+    margin-left: 130px;
+    margin-top: 190px;
+}
+
+.tt p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.tt h1{
+    margin-left: 120px;
+    transform: translateY(-30px);
+}
+
+
+/* styling the about section */
+
+.about{
+    background: #08202A;
+    width: 100%;
+    height: 2500px;
+}
+
+.core{
+    color: white;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+.core h1 span{
+    color: orangered;
+}
+
+.b1{
+    height: 400px;
+    width: 1100px;
+    margin-left: 120px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.b1 img{
+    object-fit: cover;
+    height: 380px;
+    width: 440px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 7px 2px 2px 4px orange;
+}
+
+.b1 h1{
+    margin-top: -320px;
+    margin-left: 550px;
+    font-size: 25px;
+}
+
+.b1 h1 span{
+    margin-left: 60px;
+}
+
+.b1 p{
+    margin-left: 550px;
+    margin-top: 60px;
+    line-height: 25px;
+}
+
+.b2{
+    height: 400px;
+    width: 1100px;
+    margin-left: 120px;
+  color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.b2 .b2img img{
+    object-fit: cover;
+    height: 380px;
+    width: 440px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 130px;
+    box-shadow: 7px 2px 2px 4px orange;
+}
+
+.b2tt{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.b2 h1{
+    
+    font-size: 25px;
+}
+
+.b2 h1 span{
+    margin-left: 60px;
+}
+
+.b2 p{
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+
+/* styling the about footer */
+footer{
+    background: #010b0f;
+    transform: translateY(30px);
+    height: 300px;
+}
+.footlogo img{
+    width: 200px;
+    margin-left: 90px;
+}
+
+.footlogo h1{
+    color: white;
+    margin-left: 120px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+/* company */
+.comp h1{
+    color: white;
+    margin-left: 650px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+/* sikom under the company */
+.comp h2{
+    margin-left: 600px;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.comp h2 span{
+   color: orangered; 
+   
+}
+
+/* for development under the sikom */
+.comp h4{
+    margin-left: 640px;
+    font-size: 12px;
+    margin-top: 20px;
+    color: white;
+}
+
+.comp h3{
+    margin-left: 1050px;
+    margin-top: -100px;
+    font-size: 17px;
+    color: white;
+}
+
+.comp .bar{
+    height: 30px;
+    width: 160px;
+    margin-left: 1050px;
+    background: transparent;
+    border: 2px solid orangered;
+}
+
+.comp .bar p{
+    color: white;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.comp .bar2{
+    height: 34px;
+    width: 100px;
+    background: orangered;
+    margin-left: 1214px;
+    margin-top: -34px;
+}
+
+.comp .bar2 button{
+    color: white;
+    line-height: 30px;
+    background: orangered;
+    width: 90px;
+    border: none;
+    
+}
+
+.emailbar{
+    margin-top: 20px;
+}
+
+.bar input{
+    margin-top: 0.5px;
+    color: white;
+    background: transparent;
+    border: transparent;
+    /* border: 2px solid orangered; */
+    width: 156px;
+    height: 26px;
+
+}
+
+
+/* after the logo on the footer */
+
+.sikom h1{
+    color: white;
+    font-size: 12px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.sikom h1 span{
+    color: orangered;
+}
+
+.sikom h2{
+    color: white;
+    font-size: 13px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+
+/* styling the event page */
+
+.pict{
+    display: flex;
+    margin-top: 90px;
+}
+
+.pict .imge img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-shadow: 7px 1px 1px 2px orange;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background: orangered;
+    border-radius: 60px;
+    box-shadow: 2px 1px 1px 1px white;
+}
+
+.tet{
+    display: flex;
+    gap: 1rem;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.teto{
+    color: white;
+}
+
+.teto p{
+    margin-top: 50px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+
+
+/* styling the resources page */
+
+.resources{
+    background: #08202A;
+    width: 100%;
+    height: 2200px; 
+}
+
+
+
+.resources .core2 h1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.resources .core2 span{
+    color: orangered;
+}
+
+.resources .par1 h2{
+    text-align: center;
+    color: white;
+    margin-left: -600px;
+    margin-top: 90px;
+    transform: translateY(90px);
+    font-size: 36px;
+}
+
+.resources .par1 h2 span{
+    margin-left: -220px;
+}
+
+.resources .par1 h1{
+    color: orangered;
+    transform: translateY(180px);
+  margin-left: 180px; 
+  font-size: 100px; 
+}
+
+/* styling the pictures in the resources page */
+.photo1 img{
+    object-fit: cover;
+    height: 600px;
+    width: 440px;
+    border-radius: 30px;
+    margin-top: -200px;
+    margin-left: 700px;
+    box-shadow: 7px 2px 2px 4px orange;
+}
+
+
+.resources .par1 p span{
+    color: orangered;
+}
+
+
+.resources .par1 p{
+    color: white;
+    transform: translateY(200px);
+    margin-left: 190px;
+    font-size: 20px;
+}
+
+
+/* styling the second column */
+.par2 h1 span{
+    color: orangered;
+    margin-left: 30px;
+}
+
+.par2 h1{
+    color: white;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+
+/* styling the second column on the resources page */
+
+.containerpic{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+
+.picha img{
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 70px;
+    margin-top: 120px;
+    margin-left: 100px;
+    box-shadow: 7px 2px 2px 1px orange;  
+}
+
+.picha2 img{
+    object-fit: cover;
+    height: 600px;
+    width: 440px;
+    border-radius: 70px;
+    margin-top: 20px;
+     margin-left: 80px;
+    box-shadow: 7px 2px 2px 4px orange;
+}
+
+
+.picha3 img{
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 70px;
+    margin-top: 120px;
+    margin-left: 100px;
+    box-shadow: 7px 2px 2px 1px orange;  
+}
+
+.wording{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+
+.longbar .bar1{
+    height: 20px;
+    width: 1200px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 40px;
+}
+
+.longbar .bar2{
+    height: 20px;
+    width: 590px;
+    background: #010b0f;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+
+.longbar .bar3{
+    height: 20px;
+    width: 590px;
+    background: orangered;
+    margin-top: -20px;
+    margin-left: 600px;
+    border-radius: 40px;
+}
+
